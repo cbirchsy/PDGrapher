@@ -34,10 +34,10 @@ For processed data, download the compressed folders and place them in `data/proc
 cd data
 mkdir processed
 cd processed
-wget https://figshare.com/ndownloader/files/43624557
+wget https://figshare.com/ndownloader/files/43624557 -O torch_data.tar.gz
 tar -xzvf torch_data.tar.gz
 cd ../
-wget https://figshare.com/ndownloader/files/43632327
+wget https://figshare.com/ndownloader/files/43632327 -O splits.tar.gz
 tar -xzvf splits.tar.gz
 ```
 
